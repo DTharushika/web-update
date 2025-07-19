@@ -22,7 +22,6 @@ export const UserDashboard: React.FC<UserDashboardProps> = ({ user, onVehicleSel
 
   // Main dashboard view
   return (
-    return (
       <div className="min-h-screen bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -86,6 +85,5 @@ export const UserDashboard: React.FC<UserDashboardProps> = ({ user, onVehicleSel
           </div>
         </div>
       </div>
-    );
   );
 };
